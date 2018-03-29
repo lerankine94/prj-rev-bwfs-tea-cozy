@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+}
+body, header{
+  font-family:Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity:0.9;
+}
+
+.logo {
+   height:50px;
+   padding: 0 10px;
+}
+
+header {
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  height: 69px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+nav span {
+  display: inline-block;
+}
+
+nav {
+  flex-grow: 1;
+  text-align: right;
+  padding-right: 10px;
+}
+
+nav a {
+  color: seashell;
+  margin-left: 10px;
+}
+
+.content {
+
+  width: 1200px;
+  margin: 0 auto;
+  padding: 69px 0;
+}
+
+.main {
+  height: 700px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  background-color: black;
+  color: seashell;
+  width: 100%;
+  text-align: center;
+
+
+}
+
+.month {
+  width: 1000px;
+  color: seashell;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.cakes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cake {
+  width:300px;
+  padding: 0 10px;
+}
+
+.cake img {
+  width:100%;
+  height: 200px;
+
+}
+
+.cake h4 {
+  margin-top: 10px;
+}
+
+.coffeebg {
+  height:500px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  padding-top:70px;
+
+
+}
+
+.coffeebg h2 {
+  text-align: center;
+  padding: 5px;
+  margin: 0;
+}
+
+.locations {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 1100px;
+  flex-wrap: wrap;
+  padding-top: 15px;
+}
+
+.address {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-basis: 300px;
+  margin: 5px 20px;
+  padding: 10px;
+}
+
+.address h3{
+  text-align: center;
+}
+
+.address p{
+  text-align: center;
+  font-weight: bold;
+}
+.contact{
+  height: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact h2, h5{
+  padding: 10px;
+  margin: 0;
+  flex-grow: 1;
+}
+
+footer{
+  text-align: left;
+  padding-left: 20px;
+  font-weight: bold;
+}
